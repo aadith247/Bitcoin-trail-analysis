@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar:hover{
+  cursor:pointer;
+}
+.header .navbar .logo img {
+  height: 6.5vw;
+}
+.children ul,
+.signup ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2vw;
+}
+
+.children ul li {
+  list-style: none;
+}
+.signup ul li {
+  list-style: none;
+}
+.signup ul #start {
+  background-color: #315ddf;;
+  padding: 0.7vw 0.7vw;
+
+  border-radius: 20px;
+  color: rgb(248, 248, 248);
+  font-weight: 300;
+}
+
+.children ul li:hover {
+  color: #3461e2;
+}
+.signup ul li:hover {
+  color: #3461e2;
+}
+
+
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  height: 30rem;
+}
+.main h1 {
+  font-size: 4vw;
+  
+}
+
+.main p{
+  margin-top: 1.5rem;
+  font-size: 1vw;
+}
+.main .btn ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.main .btn ul li{
+  list-style: none;
+
+}
+.main .btn #get{
+  background-color: black;
+  color: white;
+  padding: 0.9vw 1.5vw;
+  border-radius: 30px;
+}
+.main .btn #watch{
+  border: 1px solid black;
+  padding: 0.9vw 2vw;
+  border-radius: 30px;
+}
+
+#mainText{
+  font-size:1.75vw;
+
+}
+.heading{
+  margin-top:0vw;
+
+}
